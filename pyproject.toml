@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mongomodel"
+version = "0.1.0"
+description = ""
+authors = ["nick <nickchen1998@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pydantic = "^2.6.4"
+pymongo = "^4.6.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
